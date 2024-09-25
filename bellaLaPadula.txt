@@ -1,0 +1,43 @@
+Bella La Padula
+
+Security Models
+Security models are organized frameworks that define guidelines and procedures for controlling access to data within computer networks. Their primary purpose is to ensure consistent application of security measures and to block unauthorized individuals from accessing confidential information. These models are valuable because they offer a structured approach to protecting data, especially in environments where privacy is critical. They assist organizations in setting up clear access control rules, ensuring that only those with the right permissions can access certain information.
+
+About Bell La Padula Model
+The BLP Model was created in the 1970s by Leonard J. LaPadula and David Elliott Bell with a focus on military uses. Their objective was to tackle the problem of confidentiality maintenance in multi-level security systems, particularly with regard to the necessity to safeguard secret material for the U.S. Department of Defense. Growing user sharing of mainframe systems at the time due to advancements in computer technology raised worries about sensitive data being accessed by unauthorized parties. The BLP model was created to set up resource sharing procedures that are both efficient and avoid data breaches by using access control regulations. This paradigm, which established the foundation for contemporary security measures and impacted subsequent models that prioritize data availability and integrity, was mostly developed by Bell and LaPadula.By grouping data into several security tiers, the Bell-LaPadula model functions as a multi-level security framework in and of itself. It includes certain guidelines that limit access to and interactions between people (subjects) and data (objects) at different levels. Its main goal is to protect confidentiality by applying stringent access controls that are contingent on security clearances.
+
+The Three Main Properties of Bella La Padula
+Simple Security Property (No Read Up)
+According to this characteristic, a subject at one security level is not allowed to read data at a higher security level. This keeps users at a lower level from having access to confidential data that is above their clearance level.
+
+Star Property (No Write Down)
+A subject at one security level cannot write data to an object at a lower security level, according to this rule. By doing this, it is ensured that private data is not unintentionally disclosed to less secure locations.
+
+Strong Star Property
+A subject at one security level cannot write data to an object at a lower security level, according to this rule. By doing this, it is ensured that private data is not unintentionally disclosed to less secure locations.
+
+
+Advantages
+The Bella La Padula approach is an efficient way to prevent unwanted access to sensitive data.
+The rules of the model have a strong basis because it is constructed on exacting mathematical concepts.
+Because of its tight ties to military requirements during development, it can be used in contexts where strict confidentiality measures are necessary.
+
+Disadvantages
+Main disadvantage of this model is its inability to deal with integrity issues as it focuses more on confidentiality.
+The static nature of its security labels may limit adaptability in dynamic environments where access needs frequently change.
+
+The similar models to this are the Biba integrity model that focuses on integrity and also Clark Wilson model and Chinese wall model.
+
+
+References:
+https://www.studynotesandtheory.com/single-post/the-bell La Padula-model
+https://www.geeksforgeeks.org/bell La Padula-model/
+https://www.tutorialspoint.com/cryptography/bell_lapadula_model.htm
+https://www.brainscape.com/flashcards/security-architecture-and-models-1860530/packs/3431373
+https://study.com/academy/lesson/video/bell La Padula-model-example.html
+https://www.csl.sri.com/~rushby/papers/blp86.pdf
+https://people.eecs.ku.edu/~saiedian/710/Lectures/Readings/13-Bell-Lapadu-lookback.pdf
+https://en.wikipedia.org/wiki/Bell%E2%80%93LaPadula_model
+https://www.youtube.com/watch?v=SfryxGRXoVg
+https://www.acsac.org/2005/papers/Bell.pdf
+https://www.cs.purdue.edu/homes/ninghui/courses/Spring22/handouts/W03_blp_mls.pdf
